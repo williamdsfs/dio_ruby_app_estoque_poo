@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Maça",
+    "descricao": "Maçã Gala",
+    "preco": 2.5,
+    "quantidade": 20
+  },
+  {
+    "id": 2,
+    "nome": "Banana",
+    "descricao": "Banana Nanica",
+    "preco": 1.5,
+    "quantidade": 30
+  },
+  {
+    "id": 1720056529,
+    "nome": "teste",
+    "descricao": "teste",
+    "preco": 1.0,
+    "quantidade": 4
+  }
+]

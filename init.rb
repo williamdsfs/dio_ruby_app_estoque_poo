@@ -1,23 +1,10 @@
 require_relative "display/menu.rb"
 require_relative "display/operacoes_de_tela"
-require_relative "core/cadastrar_produto"
-require_relative "core/listar_produto"
-require_relative "core/retirar_estoque"
+require_relative "display/servicos/cadastrar_produto"
+require_relative "display/servicos/listar_produto"
+require_relative "display/servicos/retirar_estoque"
+require_relative "dominio/entidades/produto"
+require_relative "dominio/servicos/produto_servico"
+require_relative "infraestrutura/json_repositorio"
 
-produtos = [
-  {
-    id: 1,
-    nome: "Maça",
-    descricao: "Maçã Gala",
-    preco: 2.5,
-    quantidade: 20
-  },
-  {
-    id: 2,
-    nome: "Banana",
-    descricao: "Banana Nanica",
-    preco: 1.5,
-    quantidade: 30
-  }
-]
-iniciar_menu(produtos)
+iniciar_menu

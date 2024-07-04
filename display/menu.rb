@@ -1,4 +1,4 @@
-def iniciar_menu(produtos = [])
+def iniciar_menu
   loop do
     mensagem_amarelo("===== Escolha uma das opções abaixo: =====", false, false)
     mensagem_azul("#{vermelho(1)} - Cadastro de Produtos", false, false)
@@ -9,11 +9,11 @@ def iniciar_menu(produtos = [])
     opcao = gets.to_i
     case opcao
     when 1
-      cadastrar_produto(produtos)
+      cadastrar_produto
     when 2
-      listar_produto(produtos)
+      listar_produto
     when 3
-      retirar_estoque(produtos)
+      retirar_estoque
     when 4
       limpar_tela
       exit

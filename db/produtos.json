@@ -19,5 +19,12 @@
     "descricao": "teste",
     "preco": 1.0,
     "quantidade": 4
+  },
+  {
+    "id": 1720113446,
+    "nome": "coelho",
+    "descricao": "cinza",
+    "preco": 2.0,
+    "quantidade": 20
   }
 ]

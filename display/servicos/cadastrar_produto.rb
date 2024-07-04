@@ -25,7 +25,7 @@ def cadastrar_produto
     "quantidade" => quantidade_estoque
   })
 
-  ProdutoServico.adicionar(p)
+  ProdutoServico.new(JsonRepositorio, "db/produtos.json").adicionar(p)
 
   mensagem("O #{amarelo(nome)} foi cadastrado com sucesso!", true, true, 3)
 end
